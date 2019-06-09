@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DejanS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="jquery/jquery.min.js"></script>
+  <script src="jquery/jquery.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js?ver=1.7.0'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+
+
+
+  <style>
+
+   
+
+
+  .nav-item {  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-width: 480px;
+   padding: 20px;
+   width: 100%;}
+
+   
+
+
+
+      body {
+  
+  background-image: url(business-1839876_1280.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+      }
+  
+ 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+    .nav-item{color:#ccc;}
+
+  
+    .slika{display: none;}
+
+
+
+
+    #header{margin-top: 0 px;}
+
+    #mainNav{
+margin-top: 0px;
+padding-top: 0px;
+padding-right: 0px;
+
+    }
+  
+ 
+   
+  body {
+      position: relative; 
+      z-index:1;
+      background-image:url("business-1839876_1280.jpg");
+      /*opacity:0.8;*/
+      
+  
+      
+    
+  }
+
+
+  #section1 {z-index:-1;padding-top:50px;height:700px;color: #fff; background-color: #1E88E5;margin-top: 10px;}
+  #section2 {padding-top:50px;height:1500px;color:black; background-color:whitesmoke;z-index: 4;}
+  #section3 {padding-top:50px;height:1200px;color: #fff; background-color: #1E88E5 ;}
+  #section4 {padding-top:50px;height:500px;color: black; background-color:whitesmoke;height:1000px;}
+
+ 
+
+
+  
+
+
+  #header { 
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-width: 480px;
+   padding: 20px;
+   width: 100%;
+
+
+  background-color: #1E88E5;
+  height: 10px;
+  padding: 0px 10px;
+  color: rgb(247, 241, 241);
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.1s;
+  height: 30 px;
+  z-index: 2;
+  opacity:0.7;
+
+}
+
+
+hr {
+    
+    height: 4px;
+    border-top: 1px solid #ccc;
+   
+}
+
+
+.cv {
+  
+  margin: auto;
+  width: 60%;
+  border: 3px solid;
+  padding: 10px;
+  color: red;
+  text-align: center;
+  
+}
+
+
+
+
+.cv:hover{
+  background-color:orange;}
+
+
+
+
+.footer {
+   background-color: #1E88E5 ;
+   position:static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 45px;
+   text-align: center;
+   color:#ccc; 
+
+   
+}
+
+
+
+#footerBuyPrint {
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   min-width: 480px;
+   padding: 20px;
+   width: 100%;
+
+color:azure;
+position:fixed;
+left:0px;
+bottom:0px;
+height:45px;
+width:100%;
+display: none;
+z-index: 2;
+/* The following styles are optional, the ones above are not */
+padding: 10px;
+background-color: #1E88E5 ;
+border-top: 5px solid #ededed;
+text-align: center;
+}
+
+
+
+.column { 
+  margin: auto;
+  width: 50%;
+  border: 3px solid #1E88E5;
+  padding: 10px;
+}
+*{ 
+  font-family:tahoma;
+}
+/* .testheight Not required - unless testing ;) */
+
+
+.testheight {
+  height:1200px;
+  font-size:20px;
+  text-align:center;
+  padding:100px 20px;
+}
+
+
+.scrolltop {
+	display:none;
+	width:100%;
+  color:#f1f1f1;
+  background-color: #f1f1f1;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+
+
+
+.scroll {
+	position:absolute;
+  left:-10px;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+
+
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+
+
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+
+
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+
+
+.scroll icon
+{margin-right: 0px;}
+
+
+.scrolltop { 
+  margin: auto;
+  width: 1%;
+  padding: 10px;
+}
+
+i {
+  border: solid whitesmoke;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding:1 px;
+  color:red;
+}
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  padding: 3px;
+  margin: 0 px,1px,1px,0px;
+  color:red;
+}
+#zvezda { 
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+ <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: #1E88E5;width:100%;z-index:2;left:0; color:#ccc;padding:0px;margin-bottom: 0px;height:30px;">
+    <div class="container"style="margin-bottom: 0px;padding: 0px;height:40px; ">
+     
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      
+        <i class="fa fa-bars"></i>
+      Meni</button>
+      <div class="collapse navbar-collapse" id="navbarResponsive" >
+       <!--<ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#section1" style="color:#ccc;">O meni</a><br><br><br>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#section2"  style="color:#ccc;">Portfolio</a><br><br><br>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#section3"  style="color:#ccc;"> Kontakt </a><br><br><br>
+          </li><br>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" style="color:#ccc;">English</a>
+          </li>  
+        </ul> -->
+      
+    
+  
+
+  
+  
+  
+
+       <ul class="nav nav-tabs" style="color:rgb(199, 182, 182)">
+          <!-- <li class="active"><a href="#section1">O meni</a></li> -->
+          <!--<br><br><br><li><a href="#">SVN</a></li>-->
+         <!--<br><br><li><a href="/english.html"style="right:-60px;font-size:x-large;color:black;">English</a></li>-->
+          
+          <li class="dropdown" style="left:-10px;"> <a class="dropdown-toggle" data-toggle="dropdown"style="font-size:x-large;color:black;left:-115px" href="#"> Dejan-S <!-- span class="caret"></span>--></a> 
+             <ul class="dropdown-menu">
+              <li><a href="english.html" id ="strana2">English</a></li>
+              <li><a href="#capter1" id ="povezi1">O meni</a></li> 
+              <li><a href="#section2" id="povezi2">Portfolio</a></li>
+              <li><a href="#section3" id ="povezi3">Kontakt</a></li>
+              <li class="divider"></li>
+              
+              
+              
+              
+              
+          
+              
+              
+            
+           
+
+                  
+
+
+ <li> <div class='thetop'></div>
+
+  
+  <!--<div class='testheight'></div><br><br>-->
+  <!--<i class="fa fa-4x fa-thumbs-up fa-spin"></i>-->
+
+
+
+
+<div id="zvezda"><span  style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span> 
+    <span style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span>
+    <span style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span>
+  </div>
+
+
+
+
+
+
+<div id="section1" class="container-fluid">
+    
+  <h1 id="capter1" >O MENI</h1><br><hr/>
+   <br><br>
+  
+  <p>Na dobrom putu za full-stack developera.<br>
+     Kao junior u IT sektoru, koristim tehnologije MVC-a, u spoju C#, HTML-5, CSS, JavaScripta i SQL-a.<br> Po obrazovanju dipl.ecc prekvalifikovan 6 mesečnim IT-programom.<br>
+      Projekti koji su u mom portfoliju apsolutno su praktično primenljivi.<br> Nove tehnologije, novi izazovi, nova resenja - put koji sledim.<br> 
+     </p>
+  
+  <div id="zvezda"><span style="font-size:1500%;color:whitesmoke;">&bigstar;</span> 
+    <span style="font-size:1500%;color:whitesmoke;">&bigstar;</span>
+    <span style="font-size:1500%;color:whitesmoke;">&bigstar;</span>
+  </div>
+</div>
+<div id="section2" class="container-fluid">
+  <h1 style="color: #1E88E5 ">PORTFOLIO</h1> <br><hr/>
+  <p>Portfolijo čine uglavnom troslojne web aplikacije, tačnije MVC projekti. Projekat NNV-RAF, kao i projekat ESong.</p>
+  <p>Detalje kao i pojedine korake u izradi projekata mozete pogledati ovde:</p>
+
+  <div class="container" style="position:relative;z-index:2;" >
+      <h2>PROJEKTI</h2> <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./img/Esong4.jpg" alt="Los Angeles" style="width:100%;z-index: 3;">
+          </div>
+    
+          <div class="item">
+            <img src="./img/Esong3.jpg" alt="Chicago" style="width:100%;">
+          </div>
+        
+          <div class="item">
+            <img src="./img/Esong2.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/ES6.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/NNV4.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/NNV3.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/NNV2.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/NNV1.jpg" alt="New york" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="./img/ES7.jpg" alt="New york" style="width:100%;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div id="zvezda"><span style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span> 
+      <span style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span>
+      <span style="font-size:1500%;color:rgb(167, 11, 11);">&bigstar;</span>
+    </div>
+
+<div class="cv" style=" color:red;">  <a  href="./documents/DS-IT.pdf" download style="color:red;font-size: xx-large;">
+   CV
+</a></div>
+  
+
+
+</div>
+<div id="section3" class="container-fluid">
+  <h1>KONTAKT</h1><br><hr/>
+  <a name ="kont"> </a>
+  
+<div id="section4" class="container-fluid" style="background-color: #1E88E5 ">
+   
+    <h1><p id="poruka"></p> </h1>
+    <div class="row" >
+      
+      <div class="column">
+        <form action="/action_page.php">
+          
+ 
+          <label for="fname">IME:</label> <br>
+          <input type="text" id="fname" name="firstname" placeholder="Vaše ime.." size="45"><br><br>
+          <label for="lname">PREZIME:</label><br>
+          <input type="text" id="lname" name="lastname" size="45" placeholder="Vaše prezime.."><br><br>
+          <label for="fname">E-MAIL:</label> <br>
+          <input type="text" id="email" name="email" size="45" placeholder="Vaš e-mail.."><br><br><br>
+          <label for="subject">PORUKA</label><br>
+          <textarea id="subject" name="subject" rows="155" cols="95" placeholder="Vaša poruka.." style="height:120px"></textarea><br><br>
+          <input type="submit" onclick="upozori()" value="Pošalji"><br><br><br>
+        </form>
+      </div><br><br><br><br>
+
+      <div id="zvezda"><span style="font-size:1500%;color:whitesmoke;">&bigstar;</span> 
+        <span style="font-size:1500%;color:whitesmoke;">&bigstar;</span>
+        <span style="font-size:1500%;color:whitesmoke">&bigstar;</span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+ 
+
+  <div class='scrolltop'style="display: none;!important">
+      <div class='scroll icon' style="width:3px;height:3px;margin-right:2px;margin-left:2px;background-color:rgb(167, 11, 11);"><i class="up" style="padding:5px;margin:0px;position:absolute;right:5px;width:4px;"></i></p></i></div>
+  </div>
+</li>
+</ul> 
+
+
+</div>
+
+
+
+
+
+
+</nav>
+
+<div id="footerBuyPrint">
+  <p "><strong> Copyright &nbsp &copy; &nbsp &nbsp Dejan-S &nbsp 2019</strong></p>
+</div>
+</div>
+
+
+
+  
+<script type="text/javascript">
+  $(window).scroll(function() {
+  if ($(this).scrollTop() < 30) {
+  
+  $("#footerBuyPrint").slideUp();
+  
+  } else {
+  
+  $("#footerBuyPrint").slideDown();
+  
+  }
+  });
+</script>
+
+
+
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 30 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})
+
+</script>
+
+<script>
+    // nakon 50 px skrolovanja down menja se velicina texta u header-u 
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("fotka").style.width = "60px" ;
+      } else {
+        document.getElementById("fotka").style.width="90px";
+      }
+    }
+  </script>
+
+   <script>
+      function upozori() {
+        var txt;
+        var r = confirm("Obaveštenje!\ Pritisnite OK or Cancel.\ Uneti podaci su radi primera i nece biti prosledjeni dalje!!!.");
+        if (r == true) {
+          txt = "You pressed OK!";
+        } else {
+          txt = "You pressed Cancel!";
+        }
+        document.getElementById("poruka").innerHTML = txt;
+      }
+    </script>
+      
+        <script>$('#povezi1').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        },800);
+        return false;
+        // za scrolovanje o meni
+    });</script>
+
+
+      
+<script>$('#povezi2').click(function(){
+$('html, body').animate({
+    scrollTop: $( $.attr(this, 'href') ).offset().top
+}, 1200);
+return false;
+// za scrolovanje portfolio
+});</script>
+
+ 
+      
+ <script>$('#povezi3').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 2000);
+        return false;
+        // za scrolovanje kontakt
+    });
+  </script>
+   
+
+ 
+    
+  
+  
+
+</body>
+</html>
